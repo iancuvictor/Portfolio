@@ -1,0 +1,100 @@
+.aboutPage{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+}
+
+.content > h1 {
+    font-size: 45px;
+    font-family: Mont;
+    margin: 0;
+}
+
+.content > p {
+    font-family: Biotif;
+    color: #9B9BA7;
+    font-size: 20px;
+}
+
+.aboutPage > p{
+    color: #9B9BA7;
+    font-family: Mont;
+    font-size: 20px;
+}
+
+.skillsContent{
+    display: flex;
+    gap: 90px;
+}
+
+.languages, .frameworks, .otherTools{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.languages h1, .frameworks h1, .otherTools h1{
+    color: #9B9BA7;
+    font-family: Mont;
+    font-size: 28px;
+}
+
+.languages:hover h1, .frameworks:hover h1, .otherTools:hover h1{
+    color: #fff;
+    transition: 0.12s ease-in-out;
+}
+
+.languages ul, .frameworks ul, .otherTools ul{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0;
+    padding: 0px 10px;
+}
+
+.languages ul a, .frameworks ul a, .otherTools ul a{
+    font-family: Biotif;
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.htmlIcon, .cssIcon, .jsIcon, .reactIcon, .photoIcon{
+    transition: 0.12s;
+}
+
+.languages:hover .htmlIcon{
+    color: #EE5024;
+}
+
+.languages:hover .cssIcon {
+    color: #2482EE;
+}
+
+.languages:hover .jsIcon {
+    color: #EED624;
+}
+
+.frameworks:hover .reactIcon {
+    color: #4FCCFE;
+}
+
+.otherTools:hover .photoIcon {
+    color: #2476EE;
+}
+

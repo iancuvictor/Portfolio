@@ -1,0 +1,43 @@
+.navbarBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 20px 0px;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    z-index: 3;
+}
+
+.navbarBody a{
+    color: #9B9BA7;
+    text-decoration: none;
+    transition: 0.12s ease-out;
+    font-family: Mont;
+    cursor: pointer;
+}
+
+.navbarBody a:hover{
+    color: #fff;
+}
+
+.navIcon{
+    color: #9B9BA7;
+    transition: 0.12s ease-out;
+    cursor: pointer;
+}
+
+.navIcon:hover{
+    color: #fff;
+}
+
+.navbarBody img{
+    width: 40px;
+}
+
+.navTabs, .socialIcons{
+    display: flex;
+    gap: 40px;
+}

@@ -1,0 +1,64 @@
+.projectSlideBody{
+    border: 2px #252532 solid;
+    border-radius: 5px;
+    padding: 25px;
+    width: 266px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.12s ease-out;
+    background: #000;
+}
+
+.projectSlideBody:hover{
+    border: 2px #fff solid;
+}
+
+.projectSlideBody:hover .madeIn {
+    color: #fff;
+}
+
+.image{
+    width: 266px;
+    height: 130px;
+    border: 2px #252532 solid;
+}
+
+.title{
+    font-family: Mont;
+    font-size: 24px;
+    align-self: flex-start;
+}
+
+.madeIn{
+    display: flex;
+    gap: 5px;
+    align-self: flex-start;
+    color: #9B9BA7;
+}
+
+.description{
+    color: #9B9BA7;
+    font-family: Mont;
+    height: 130px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    gap: 10px;
+    position: relative;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Mont;
+    color: #9B9BA7;
+    transition: 0.12s ease-out;
+}
+
+.footer a:hover{
+    color: #8C9EFF;
+}

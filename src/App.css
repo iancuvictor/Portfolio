@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Mont;
+  src: url('./fonts/mont-13.ttf');
+}
+
+@font-face {
+  font-family: Biotif;
+  src: url('./fonts/Circular/CircularStd-Book.otf');
+}
+
+body{
+  background: #000;
+}
