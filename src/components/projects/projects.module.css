@@ -40,4 +40,14 @@
 .projectsList{
     display: flex;
     gap: 30px;
+    padding: 0px 50px;
 }
+
+@media screen and (max-width: 750px) {
+    .projectsList{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
