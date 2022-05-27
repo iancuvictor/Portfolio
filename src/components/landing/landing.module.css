@@ -17,6 +17,7 @@
     font-size: 75px;
     font-family: Mont;
     margin: 0;
+    width: 100%;
 }
 
 .landingPage p{
@@ -38,4 +39,18 @@
         background-image: linear-gradient(90deg, #fff, #fff);
     }
     
+}
+
+@media screen and (max-width: 800px)  {
+    .landDesc{
+        padding: 50px;
+    }
+
+    .landingPage h1{
+        font-size: 60px;
+    }
+
+    .landingPage p{
+        font-size: 16px;
+    }
 }
