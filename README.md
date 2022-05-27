@@ -23,10 +23,17 @@ Also, since I am too poor and I do not really want to host it, I'll give you a g
 
 1. Download the whole project by cloning the main folder.
 
-2. Open a Terminal inside the "Portfolio" folder and run ```npm start```.
-<sub>*You can also use Visual Studio Code, which I recommend since it has a built in Terminal*</sub>
+2. Open a terminal inside the "Portfolio" folder where the package.json and package-lock.json files are located.
+<br><sub>*You can also use Visual Studio Code, which I recommend since it has a built in Terminal*</sub>
+
+3. Run ```npm install``` to install all the necessary dependencies.
+
+4. run ```npm start```.
 
 And that's kind of it. Hopefully your feedback on this project (if there is any) will be positive!
+
+Some other links:
+- [Linkedin](https://www.linkedin.com/in/iancuvictor/)
 
 
 
