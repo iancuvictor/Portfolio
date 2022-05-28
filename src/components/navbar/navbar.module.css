@@ -41,3 +41,13 @@
     display: flex;
     gap: 40px;
 }
+
+@media screen and (max-width: 750px) {
+    .navTabs, .socialIcons{
+        gap: 20px;
+    }
+
+    .navbarBody{
+        gap: 40px;
+    }
+}
