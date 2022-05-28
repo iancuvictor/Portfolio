@@ -1,7 +1,7 @@
 import React from 'react';
 import { ImHtmlFive } from 'react-icons/im';
 import { IoLogoCss3 } from 'react-icons/io';
-import { SiJavascript, SiAdobephotoshop } from 'react-icons/si';
+import { SiJavascript, SiAdobephotoshop, SiGit } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 import css from './about.module.css';
 
@@ -45,6 +45,10 @@ function About() {
                         <ul>
                             <a className={css.photoText}>Photoshop</a>
                             <SiAdobephotoshop className={css.photoIcon} size={30} />
+                        </ul>
+                        <ul>
+                            <a className={css.gitText}>Git</a>
+                            <SiGit className={css.gitIcon} size={30} />
                         </ul>
                     </div>
                 </div>

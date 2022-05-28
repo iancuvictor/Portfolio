@@ -98,6 +98,10 @@
     color: #2476EE;
 }
 
+.otherTools:hover .gitIcon {
+    color: #ef4a30;
+}
+
 @media screen and (max-width: 750px) {
     .content{
         width: 400px;
