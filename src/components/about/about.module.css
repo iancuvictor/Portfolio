@@ -63,7 +63,7 @@
     justify-content: flex-end;
     gap: 10px;
     margin: 0;
-    padding: 0px 10px;
+    padding: 0px 0px;
 }
 
 .languages ul a, .frameworks ul a, .otherTools ul a{
@@ -96,5 +96,34 @@
 
 .otherTools:hover .photoIcon {
     color: #2476EE;
+}
+
+@media screen and (max-width: 750px) {
+    .content{
+        width: 400px;
+    }
+
+    .content > h1{
+        text-align: center;
+        font-size: 48px;
+    }
+
+    .skillsContent{
+        gap: 40px;
+        width: 400px;
+        justify-content: center;
+    }
+
+    .languages h1, .frameworks h1, .otherTools h1{
+    font-size: 18px;
+    }
+
+    .htmlIcon, .cssIcon, .jsIcon, .reactIcon, .photoIcon{
+        width: 20px;
+    }
+
+    .languages ul a, .frameworks ul a, .otherTools ul a{
+        font-size: 16px;
+    }
 }
 
