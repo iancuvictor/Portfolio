@@ -42,12 +42,31 @@
     gap: 40px;
 }
 
+.normalNavbar{
+    display: flex;
+    gap: 100px;
+}
+
+.navbarSideMenu{
+    display: none;
+}
+
 @media screen and (max-width: 750px) {
-    .navTabs, .socialIcons{
-        gap: 20px;
-    }
 
     .navbarBody{
-        gap: 40px;
+        justify-content: space-between;
+    }
+
+    .normalNavbar{
+        display: none;
+    }
+
+    .navbarLogo{
+        padding-left: 30px;
+    }
+
+    .navbarSideMenu{
+        display: block;
+        padding-right: 30px;
     }
 }
