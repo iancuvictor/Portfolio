@@ -2,7 +2,9 @@
     color: #fff;
     display: flex;
     justify-content: center;
-    height: 80vh;
+    align-items: center;
+    height: 85vh;
+    padding-top: 21vh;
 }
 
 .content{
@@ -122,7 +124,7 @@
     font-size: 18px;
     }
 
-    .htmlIcon, .cssIcon, .jsIcon, .reactIcon, .photoIcon{
+    .htmlIcon, .cssIcon, .jsIcon, .reactIcon, .photoIcon, .gitIcon{
         width: 20px;
     }
 

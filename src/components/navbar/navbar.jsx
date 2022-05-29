@@ -11,8 +11,8 @@ function Navbar() {
             <nav className={css.navbarBody}>
                 <Link to='landingPage' smooth={'easeOutQuart'} isDynamic={true} duration={1000}><img src={logo} alt="My logo or some shit" /></Link>
                 <div className={css.navTabs}>
-                    <Link to='aboutPage' smooth={'easeOutQuart'} offset={-250} isDynamic={true} duration={1000}>About</Link>
-                    <Link to='projectsPage' smooth={'easeOutQuart'} offset={-140} isDynamic={true} duration={1000}>Projects</Link>
+                    <Link to='aboutPage' smooth={'easeOutQuart'} offset={100} isDynamic={true} duration={1000}>About</Link>
+                    <Link to='projectsPage' smooth={'easeOutQuart'} offset={0} isDynamic={true} duration={1000}>Projects</Link>
                     <a href='mailto:iancu27victor@gmail.com' target='_blank' rel="noreferrer">Contact</a>
                 </div>
                 <div className={css.socialIcons}>
