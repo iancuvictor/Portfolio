@@ -1,7 +1,7 @@
 import React from 'react';
 import { ImHtmlFive } from 'react-icons/im';
 import { IoLogoCss3 } from 'react-icons/io';
-import { SiJavascript, SiAdobephotoshop } from 'react-icons/si';
+import { SiJavascript } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 import css from './projects.module.css';
 import { ProjectSlide } from '../index';

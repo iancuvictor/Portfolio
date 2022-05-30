@@ -14,10 +14,10 @@ const SideMenu = () => (
         </div>
         <div className={css.socialIcons}>
             <a href='https://www.linkedin.com/in/iancuvictor/' target='_blank' rel="noreferrer">
-                <BsLinkedin className={css.navIcon} size={25} />
+                <BsLinkedin className={css.navIcon} size={30} />
             </a>
             <a href='https://github.com/iancuvictor' target='_blank' rel="noreferrer">
-                <BsGithub className={css.navIcon} size={25} />
+                <BsGithub className={css.navIcon} size={30} />
             </a>
         </div>
     </>
@@ -26,6 +26,8 @@ const SideMenu = () => (
 function Navbar() {
 
     const [toggleMenu, setToggleMenu] = useState(false);
+
+    
 
     return (
         <>

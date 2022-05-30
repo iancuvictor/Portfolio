@@ -27,6 +27,7 @@
     color: #9B9BA7;
     transition: 0.12s ease-out;
     cursor: pointer;
+    width: 25px;
 }
 
 .navIcon:hover{
@@ -47,14 +48,23 @@
     gap: 100px;
 }
 
-.navbarSideMenu{
+.navbarSideMenu, .sideMenuContainer{
     display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0%;
+    } to {
+        opacity: 100%;
+    }
 }
 
 @media screen and (max-width: 750px) {
 
     .navbarBody{
         justify-content: space-between;
+        background: #000;
     }
 
     .normalNavbar{
@@ -68,5 +78,44 @@
     .navbarSideMenu{
         display: block;
         padding-right: 30px;
+    }
+
+    .sideMenuContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        background: #000;
+        padding: 100px 0px;
+        padding-bottom: 200px;
+        height: 65vh;
+        animation: fadeIn 0.15s;
+    }
+
+    .navTabs{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 18px;
+        border-bottom: #9B9BA7 solid 1px;
+    }
+
+    .socialIcons{
+        display: flex;
+        gap: 40px;
+    }
+
+    .navIcon{
+        width: 30px;
+    }
+
+    .navTabs:focus > .navbarSideMenu{
+        display: none;
     }
 }
