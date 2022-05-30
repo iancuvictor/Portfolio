@@ -5,11 +5,12 @@ import { RiCloseFill , RiMenuFill } from 'react-icons/ri';
 import logo from './assets/logo.svg';
 import { Link } from 'react-scroll';
 
-const SideMenu = () => (
+const SideMenu = (props) => (
+
     <>
         <div className={css.navTabs}>
-            <Link to='aboutPage' smooth={'easeOutQuart'} offset={100} isDynamic={true} duration={1000}>About</Link>
-            <Link to='projectsPage' smooth={'easeOutQuart'} offset={0} isDynamic={true} duration={1000}>Projects</Link>
+            <Link onClick={props.closeFunction} to='aboutPage' smooth={'easeOutQuart'} offset={100} isDynamic={true} duration={1000}>About</Link>
+            <Link onClick={props.closeFunction} to='projectsPage' smooth={'easeOutQuart'} offset={0} isDynamic={true} duration={1000}>Projects</Link>
             <a href='mailto:iancu27victor@gmail.com' target='_blank' rel="noreferrer">Contact</a>
         </div>
         <div className={css.socialIcons}>
@@ -24,11 +25,13 @@ const SideMenu = () => (
 )
 
 
-function Navbar() {
-
+function Navbar() {  
+    
     const [toggleMenu, setToggleMenu] = useState(false);
 
-    
+    function closeMenu(){
+        setToggleMenu(false);
+    }
 
     return (
         <>
@@ -44,8 +47,8 @@ function Navbar() {
                         : <RiMenuFill color='#fff' size={30} onClick={() => setToggleMenu(true)} />
                     }
                     {toggleMenu && (
-                    <div className={css.sideMenuContainer}>
-                            <SideMenu />
+                        <div className={css.sideMenuContainer}>
+                            <SideMenu closeFunction={closeMenu}/>
                     </div>
                     )}
                 </div>
