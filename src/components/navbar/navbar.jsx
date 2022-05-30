@@ -23,6 +23,7 @@ const SideMenu = () => (
     </>
 )
 
+
 function Navbar() {
 
     const [toggleMenu, setToggleMenu] = useState(false);

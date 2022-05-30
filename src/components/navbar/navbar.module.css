@@ -40,6 +40,7 @@
 
 .navTabs, .socialIcons{
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
@@ -95,7 +96,7 @@
         padding: 100px 0px;
         padding-bottom: 200px;
         height: 65vh;
-        animation: fadeIn 0.15s;
+        animation: fadeIn 0.25s ease-out;
     }
 
     .navTabs{
