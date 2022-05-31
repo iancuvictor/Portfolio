@@ -12,15 +12,20 @@
 }
 
 .navbarBody a{
-    color: #9B9BA7;
     text-decoration: none;
-    transition: 0.12s ease-out;
     font-family: Mont;
     cursor: pointer;
 }
 
-.navbarBody a:hover{
+.navText{
+    color: #9B9BA7;
+    transition: 0.12s ease-out;
+    border-bottom: 1px solid transparent;
+}
+
+.navbarBody .navText:hover{
     color: #fff;
+    border-bottom: 1px solid #ef0141;
 }
 
 .navIcon{

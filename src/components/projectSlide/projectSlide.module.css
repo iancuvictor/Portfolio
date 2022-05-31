@@ -51,16 +51,15 @@
     position: relative;
 }
 
-.footer a{
-    color: #fff;
+a{
+    color: #9B9BA7;
     text-decoration: none;
     font-family: Mont;
-    color: #9B9BA7;
     transition: 0.12s ease-out;
 }
 
-.footer a:hover{
-    color: #8C9EFF;
+a:hover{
+    color: #fff;
 }
 
 @media screen and (max-width: 430px) {

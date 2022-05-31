@@ -9,9 +9,9 @@ const SideMenu = (props) => (
 
     <>
         <div className={css.navTabs}>
-            <Link onClick={props.closeFunction} to='aboutPage' smooth={'easeOutQuart'} offset={100} isDynamic={true} duration={1000}>About</Link>
-            <Link onClick={props.closeFunction} to='projectsPage' smooth={'easeOutQuart'} offset={0} isDynamic={true} duration={1000}>Projects</Link>
-            <a href='mailto:iancu27victor@gmail.com' target='_blank' rel="noreferrer">Contact</a>
+            <Link onClick={props.closeFunction} to='aboutPage' smooth={'easeOutQuart'} offset={100} isDynamic={true} duration={1000}><p className={css.navText}>About</p></Link>
+            <Link onClick={props.closeFunction} to='projectsPage' smooth={'easeOutQuart'} offset={0} isDynamic={true} duration={1000}><p className={css.navText}>Projects</p></Link>
+            <a href='mailto:iancu27victor@gmail.com' target='_blank' rel="noreferrer"><p className={css.navText}>Contact</p></a>
         </div>
         <div className={css.socialIcons}>
             <a href='https://www.linkedin.com/in/iancuvictor/' target='_blank' rel="noreferrer">

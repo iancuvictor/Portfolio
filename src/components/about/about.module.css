@@ -81,6 +81,10 @@
     transition: 0.12s;
 }
 
+.htmlText:hover{
+    color: #ef0141;
+}
+
 .languages:hover .htmlIcon{
     color: #EE5024;
 }

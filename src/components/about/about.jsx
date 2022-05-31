@@ -10,9 +10,12 @@ function About() {
         <div id='aboutPage' className={css.aboutPage}>
             <div className={css.content}>
                 <h1>About me/the skills that I have</h1>
-                <p>I know you don't care about this portfolio website. Neither do I. So I won't bore you. Here is some information about me and why you should hire me:<br></br><br></br><span style={{ color: '#fff' }}>My specialization is Frontend Web Development</span><br></br><br></br><span style={{ color: '#fff' }}>I studied (study) at: <br></br>- Colegiul Economic "Emanuil Gojdu" Hunedoara || Tourism and Alimentation</span>
+                <p>I know you don't care about this portfolio website that much (or at all) so I won't bore you. I'll keep it tight:<br></br><br></br><span style={{ color: '#fff' }}>My specialization is Frontend Web Development</span><br></br><br></br><span style={{ color: '#fff' }}>I studied (study) at: <br></br>- Colegiul Economic "Emanuil Gojdu" Hunedoara || Tourism and Alimentation</span>
                 <br></br>
                 And I haven't graduated yet.
+                <br></br>
+                <br></br>
+                    I plan on studying at an University in Cluj-Napoca, most likely the Physical Education one.
                 <br></br>
                 <br></br>
                 <span style={{ color: '#fff' }}> My Skills: </span></p>
