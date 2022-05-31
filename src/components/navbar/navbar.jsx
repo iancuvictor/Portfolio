@@ -35,7 +35,8 @@ function Navbar() {
 
     return (
         <>
-            <nav className={css.navbarBody}>
+            {/*${ toggleMenu ? "" : "noScroll" }*/}
+            <nav className={`${css.navbarBody}`}>
                 <Link to='landingPage' smooth={'easeOutQuart'} isDynamic={true} duration={1000}><img className={css.navbarLogo} src={logo} alt="My logo or some shit" /></Link>
                 <div className={css.normalNavbar}>
                     <SideMenu />
