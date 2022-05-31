@@ -10,7 +10,7 @@ function ProjectSlide(props) {
       <div className={css.madeIn}>{props.madeIn}</div>
       <p className={css.description}>{props.description}</p>
       <div className={css.footer}>
-        <BsGithub size={30} /><a target='_blank' rel="noreferrer" href={props.githubLink}>Project &#123;Source Code&#125;</a>
+        <BsGithub className={css.gitIcon} size={30} /><a target='_blank' rel="noreferrer" href={props.githubLink}>Project &#123;Source Code&#125;</a>
       </div>
       {/*<div className={css.madeIn}>{props.madeIn}</div>*/}
     </div>

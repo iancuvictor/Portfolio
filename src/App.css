@@ -8,7 +8,13 @@
   src: url('./fonts/Circular/CircularStd-Book.otf');
 }
 
+html{
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
 body{
-  background: #000;
-  overflow-x: hidden; 
+  background: #000; 
+  overflow-x: hidden;
+  overflow-y: hidden;
 }

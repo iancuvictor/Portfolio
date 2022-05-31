@@ -10,13 +10,13 @@ function About() {
         <div id='aboutPage' className={css.aboutPage}>
             <div className={css.content}>
                 <h1>About me/the skills that I have</h1>
-                <p>I got into <span style={{ color: '#fff' }}>Frontend Web Development</span> at age 16 after I realised the army (the Romanian one at least) wasn't going to be that exciting.<br></br><br></br><span style={{ color: '#fff', fontSize: '20px' }}>I studied (study) at: <br></br>- Colegiul Economic "Emanuil Gojdu" Hunedoara || Tourism and Alimentation</span>
+                <p>I got into <span style={{ color: '#fff' }}>Frontend Web Development</span> at age 16 after I realised the army (the Romanian one at least) wasn't going to be that exciting.<br></br><br></br><span style={{ color: '#fff' }}>I studied (study) at: <br></br>- Colegiul Economic "Emanuil Gojdu" Hunedoara || Tourism and Alimentation</span>
                 <br></br>
                 And I haven't graduated yet.
                 <br></br>
                 <br></br>
                 Now, the things that you actually care about.
-                <span style={{ color: '#fff', fontSize: '20px' }}> My skills and knowledge: </span></p>
+                <span style={{ color: '#fff' }}> My skills and knowledge: </span></p>
                 <div className={css.skillsContent}>
                     <div className={css.languages}>
                         <h1>Languages</h1>

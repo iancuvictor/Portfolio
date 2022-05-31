@@ -53,6 +53,10 @@
     display: none;
 }
 
+.hamburgerIcon{
+    cursor: pointer;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0%;
@@ -132,5 +136,11 @@
 
     .noScroll{
         animation: fadeOut 0.25s ease-out;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .navbarBody img {
+        width: 35px;
     }
 }

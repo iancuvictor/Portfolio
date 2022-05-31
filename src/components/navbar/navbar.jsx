@@ -44,8 +44,8 @@ function Navbar() {
 
                 <div className={css.navbarSideMenu}>
                     {toggleMenu
-                        ? <RiCloseFill color='#fff' size={30} onClick={() => setToggleMenu(false)} />
-                        : <RiMenuFill color='#fff' size={30} onClick={() => setToggleMenu(true)} />
+                        ? <RiCloseFill className={css.hamburgerIcon} color='#fff' size={30} onClick={() => setToggleMenu(false)} />
+                        : <RiMenuFill className={css.hamburgerIcon} color='#fff' size={30} onClick={() => setToggleMenu(true)} />
                     }
                     {toggleMenu && (
                         <div className={css.sideMenuContainer}>

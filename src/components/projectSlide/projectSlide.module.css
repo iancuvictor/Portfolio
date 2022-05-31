@@ -62,3 +62,30 @@
 .footer a:hover{
     color: #8C9EFF;
 }
+
+@media screen and (max-width: 430px) {
+    .projectSlideBody{
+        width: 200px;
+    }
+
+    .image{
+    width: 200px;
+    height: 98px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .description{
+        font-size: 14px;
+    }
+
+    .footer a {
+        font-size: 14px;
+    }
+
+    .gitIcon{
+        width: 25px;
+    }
+}
