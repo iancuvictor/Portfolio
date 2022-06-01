@@ -1,8 +1,9 @@
 # Iancu Victor - Iuliu - Portfolio Website
 
-First "big" Frontend project. Fairly simple but it looks decent.
+Here is the link to the deployed website:
+https://iancuvictor.github.io/Portfolio/
 
-In case you want to start it on your localhost, here are the steps you should follow:
+In case you want to start it on your localhost (for some unknown reason), here are the steps you should follow:
 
 1. Download the whole project by cloning the main folder.
 
