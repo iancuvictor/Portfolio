@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b771949c.css",
-    "main.js": "/Portfolio/static/js/main.0134545f.js",
-    "static/media/ukraine.png": "/Portfolio/static/media/ukraine.6d62cc77a3bbcb3a4343.png",
+    "main.css": "/Portfolio/static/css/main.f8cc9db2.css",
+    "main.js": "/Portfolio/static/js/main.fa5c6015.js",
     "static/media/mont-13.ttf": "/Portfolio/static/media/mont-13.0b5e68ebb36ca4006e21.ttf",
+    "static/media/UAEEstate.png": "/Portfolio/static/media/UAEEstate.5b0cdc4b8afeeb8fcee6.png",
     "static/media/CircularStd-Book.otf": "/Portfolio/static/media/CircularStd-Book.9048137056e4347dbbd5.otf",
     "static/media/logo.svg": "/Portfolio/static/media/logo.163e1e6a619c5add3b9f474e7128be51.svg",
     "static/media/portfolio.png": "/Portfolio/static/media/portfolio.b12a54a50327c459fe80.png",
     "index.html": "/Portfolio/index.html",
-    "main.b771949c.css.map": "/Portfolio/static/css/main.b771949c.css.map",
-    "main.0134545f.js.map": "/Portfolio/static/js/main.0134545f.js.map"
+    "main.f8cc9db2.css.map": "/Portfolio/static/css/main.f8cc9db2.css.map",
+    "main.fa5c6015.js.map": "/Portfolio/static/js/main.fa5c6015.js.map"
   },
   "entrypoints": [
-    "static/css/main.b771949c.css",
-    "static/js/main.0134545f.js"
+    "static/css/main.f8cc9db2.css",
+    "static/js/main.fa5c6015.js"
   ]
 }
