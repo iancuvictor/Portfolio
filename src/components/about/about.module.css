@@ -3,8 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 70vh;
     padding-top: 25vh;
+    padding-bottom: 5vh;
 }
 
 .content{
